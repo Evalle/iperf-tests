@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: qperf-server
+spec:
+  containers:
+  - name: qperf-server
+    image: evalle/qperf-server
+    ports:
+    - containerPort: 5001
