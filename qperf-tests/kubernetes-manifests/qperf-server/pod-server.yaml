@@ -7,4 +7,4 @@ spec:
   - name: qperf-server
     image: evalle/qperf-server
     ports:
-    - containerPort: 5001
+    - containerPort: 19765
